@@ -41,7 +41,17 @@ CREATE TABLE test_keyspace.test_table (
 
     If you're testing fault tolerance, set up a multi-node Cassandra cluster.
     Ensure nodes are properly connected and visible in the cluster using:
-    
+
 ```bash
 nodetool status
+```
+
+
+## Setting up Bayou
+
+``` bash
+pip install -e '.'
+
+make test_storage        # Test Storage's implementation
+make test_client         # End-to-End testing from client to server
 ```
