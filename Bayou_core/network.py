@@ -1,6 +1,5 @@
 import socket
 from typing import Optional, Final
-
 from core.logger import network_logger, client_logger
 from core.server import ServerInfo
 from core.message import JsonMessage

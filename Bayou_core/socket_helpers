@@ -2,7 +2,6 @@ import socket
 import struct
 from typing import Optional
 import json
-
 from core.message import JsonMessage
 from core.logger import network_logger
 

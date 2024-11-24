@@ -2,7 +2,6 @@ from __future__ import annotations
 import json
 from typing import Final, Any, Optional
 
-
 class JsonMessage:
     def __init__(self, msg: dict[str, Any]) -> None:
         self._msg_d: Final[dict[str, Any]] = msg
